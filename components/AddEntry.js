@@ -71,10 +71,10 @@ export default class AddEntry extends Component {
 
     return (
       <View>
-        {/*<Text>Hola</Text>*/}
-        {/*<Text>123</Text>*/}
-        {/*<Text>qwerty</Text>*/}
-        {/*<Text>{JSON.stringify(this.state)}</Text>*/}
+        <Text>Hola</Text>
+        <Text>123</Text>
+        <Text>qwerty</Text>
+        <Text>{JSON.stringify(this.state)}</Text>
         <DateHeader date={(new Date()).toLocaleDateString()} />
         {Object.keys(metaInfo).map((key) => {
           const { getIcon, type, ...rest } = metaInfo[key];
